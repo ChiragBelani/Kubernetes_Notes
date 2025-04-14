@@ -1,0 +1,23 @@
+Kubernetes
+Chapter 1 -- Overview
+
+
+  Kubernetes is a portable, extensible and a open source platform for managing the container led workloads that facilitates both the declarative configurations and automated workloads.
+  The Kubernetes has a great ecosystem and is rapidly growing.
+
+  Back in time, there were
+    1. Traditional Deployments, theres only one operating system for all the apps, only physical servers were there and this caused the problem of resource allocation.
+    2. Virtualised Deployments, the change was that on a single os cpu, we installed multiple os inside virtual boxes, and then ran multiple apps independently on each os.
+    3. Container based Deployments, here we have the containers that run on a CRT(container runtime) on a single cpu os, eliminating the problems of immutable virtual box resource and memory allocations.
+
+  Containers are lightweight, have their own infrastructure and are portable.
+
+  Kubernetes provides all the below functionalities with the containers, 
+    1. Service Discovery and Load balancing
+    2. Storage Orchestration
+    3. Automates rollouts and rollbacks
+    4. Self healing
+    5. Batch Execution
+    6. Horizontal Scaling
+
+  The applications running on the top of kubernetes are known as cloud native applications, they have some key features like deploy, scale, zero downtime and self healing.
